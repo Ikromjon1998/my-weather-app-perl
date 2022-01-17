@@ -1,0 +1,19 @@
+.main_container{
+    width:100%;
+    display: flex;
+    justify-content: center;
+}
+.card_container_main{
+    width:68%;
+}
+@media screen and (max-width: 900px){
+    .main_container{
+        width:100%;
+        display: inline;
+    }
+    .card_container_main{
+        width:100%;
+        
+    }
+
+}
